@@ -1,0 +1,31 @@
+body {
+    min-block-size: 40vw;
+    justify-content: center;
+    align-items: center;
+}
+.tablero {
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.fila {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} 
+.bloque_1 {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+.bloque_2 {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
