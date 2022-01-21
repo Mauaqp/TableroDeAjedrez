@@ -1,3 +1,6 @@
+* {
+    box-sizing: ;
+}
 body {
     min-block-size: 40vw;
     justify-content: center;
@@ -18,13 +21,13 @@ body {
     align-items: center;
     width: 100%;
 } 
-.bloque_1 {
+.color_1 {
     background-color: red;
     height: 100px;
     width: 100px;
 }
 
-.bloque_2 {
+.color_2 {
     background-color: black;
     height: 100px;
     width: 100px;

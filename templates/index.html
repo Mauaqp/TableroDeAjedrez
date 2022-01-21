@@ -10,10 +10,10 @@
 <body>
     <h1>Tablero de Ajedrez</h1>
     <div class="tablero">
-        {% for j in range(0, num)%}
+        {% for j in range(0, col)%}
             <div class="fila">
             {% for i in range(0,num)%}
-                <div class="bloque_{{ (i+j)%2+1 }}"></div>
+                <div class="color_{{ (i+j)%2+1 }}"></div>
             {% endfor %}
             </div>
         {% endfor %}
